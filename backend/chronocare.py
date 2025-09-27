@@ -141,8 +141,7 @@ def upload_ledger(file: UploadFile= File(...)):
     #DO be done after complete ledger functionality form pradyun side
 
 
-@app.ws('/api/chatbot/')
-    
+ 
 
 
 if __name__ == "__main__":
