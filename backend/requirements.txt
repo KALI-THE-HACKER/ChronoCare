@@ -1,8 +1,28 @@
+# Core FastAPI dependencies
 fastapi==0.104.1
-uvicorn==0.24.0
+uvicorn[standard]==0.24.0
 pydantic==2.5.0
 python-multipart==0.0.6
+
+# Environment configuration
+python-dotenv==1.0.0
+
+# Google Cloud services
 google-cloud-documentai==2.21.0
 google-auth==2.23.4
 google-api-core==2.12.0
-python-dotenv==1.0.0
+
+# Database
+mysql-connector-python==8.2.0
+
+# Additional utilities (if needed)
+# Pillow==10.1.0  # For image processing
+# requests==2.31.0  # For HTTP requests
+
+# Firebase
+firebase-admin==6.2.0
+
+agno
+google-genai
+pypdf
+orjson
